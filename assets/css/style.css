@@ -7,6 +7,8 @@
 @import url('./home.css');
 @import url('./about.css');
 @import url('./style-starktech.css');
+@import url('./career.css');
+
 
 :root{
     --primary-color: #000000;
@@ -286,4 +288,14 @@ section .section-title{
         z-index:1;
     }  .contact-map iframe{
         z-index:88;
+    }
+
+    .dropdown-toggle{
+        color:var(--dark-color-1) !important;
+        font-weight:500!important;
+    }
+
+    .dropdown-toggle.text-light{
+        color:var(--light-color-1) !important;
+        font-weight:500!important;
     }

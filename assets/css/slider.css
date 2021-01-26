@@ -134,6 +134,22 @@
 
     }
 }
+
+
+@media(max-width:1800px){
+    .slider-navigation{
+        display:none
+
+    }
+}
+@media(min-width:1800px){
+    .slider-navigation{
+        display:inline
+
+    }
+}
+
+
 .action-link{
     text-decoration: underline;
     padding-bottom: 10px;

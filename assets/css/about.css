@@ -25,14 +25,20 @@
  .about-bg-right p{
     color: var(--light-color-5)
  }
-
+@media(min-width:600px){
  .about-bg-right{
      margin-left:-150px;
  }
-
  .about-section-img img{
-     height:70vh
- }
+    height:70vh
+  }
+}
+
+@media(max-width:600px){
+.about-section-img img{
+    height:50vh
+   }
+}
 
  .about-midrow h3{
     font-size:1.1rem;
