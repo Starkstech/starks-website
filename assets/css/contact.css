@@ -1,0 +1,59 @@
+.contact-col{
+
+}
+
+.contact-icon{
+    background-color: var(--light-color-2);
+    color: var(--color-secondary);
+    font-size: 1.3rem;
+    margin-bottom: auto;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: inline-block;
+    padding-top:20px;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    color: var(--color-white);
+}
+
+
+.contact-icon:hover{
+    background-color: var(--footer-bg-1);
+    color: var(--color-secondary);
+}
+
+.contact-icon:hover .fa-1x{
+    color: white!important;
+}
+
+.contact-icon i{
+    color: var(--footer-bg-1) !important;
+}
+
+.card-inner{
+    box-shadow: 0 2px 2.8rem 0 rgba(0, 0, 0, 0.08);
+}
+
+.header-img{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url('../images/stark-image002.jpeg');
+    background-attachment: fixed;
+    height:43vh;
+    display:flex;
+    justify-content: center;
+}
+
+.contact-form input, .contact-form textarea {
+    font-size: inherit;
+    padding: 1rem 1.5rem;
+}
+
+.card-inner p{
+    transition:all .2s ease-in-out
+}
+
+.card-inner p:hover{
+    color:var(--footer-bg-1);
+    font-weight: 900;
+    font-size:1rem
+}

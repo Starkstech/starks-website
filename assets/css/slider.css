@@ -1,0 +1,140 @@
+@media(min-width:700px){
+    .header-image{
+        height: 100vh;
+        /* background-image: url('../../assets/images/stark-image002.jpeg'); */
+        background:  linear-gradient(180deg, rgba(48, 39, 66, 0.863) 0%, rgba(38, 27, 58, 0.719) 100%), url('../../assets/images/stark-image002.jpeg') no-repeat;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:700px){
+    .header-image{
+        height: 80vh;
+        /* background-image: url('../../assets/images/stark-image002.jpeg'); */
+        background:  linear-gradient(180deg, rgba(48, 39, 66, 0.863) 0%, rgba(38, 27, 58, 0.719) 100%), url('../../assets/images/stark-image002.jpeg') no-repeat;
+        background-size: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.header-image-2{
+    height: 90vh;
+    background:  linear-gradient(180deg, rgba(48, 39, 66, 0.863) 0%, rgba(38, 27, 58, 0.719) 100%), url('../../assets/images/strakstech002.jpg') no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+
+}
+
+
+.header-image-3{
+    height: 100vh;
+    background:  linear-gradient(180deg, rgba(48, 39, 66, 0.863) 0%, rgba(38, 27, 58, 0.719) 100%), url('../../assets/images/strakstech002.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-image-4{
+    height: 90vh;
+    background:  linear-gradient(180deg, rgba(48, 39, 66, 0.863) 0%, rgba(38, 27, 58, 0.719) 100%), url('../../assets/images/starks-records.jpg') no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-image-inner{
+    text-align:left;
+    color:var(--light-color-1) ;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+@media(max-width:600px){
+    .header-image-inner h1{
+        font-size: 2.0rem;
+        font-weight:300;
+    }
+
+    .header-image-inner p{
+        font-size: .8rem;
+        font-weight:300;
+    }
+    .header-image{
+        height: 70vh;
+        background:  linear-gradient(180deg, rgba(48, 39, 66, 0.863) 0%, rgba(38, 27, 58, 0.719) 100%), url('../../assets/images/stark-image002.jpeg') no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-position-y: 100%;
+    }
+}
+
+@media (min-width: 992px){
+    .container-0, .container-lg, .container-md, .container-sm {
+        max-width: 1978px;
+    }
+}
+
+@media(min-width:600px){
+    .header-image-inner h1{
+        font-size: 2.9rem;
+        font-weight:300;
+    }
+
+    .header-image-inner p{
+
+        font-size: 1rem;
+        font-weight:300;
+        padding: 10px 5px;
+    }
+}
+
+.slider-navigation button{
+    border: 1px solid var(--light-color-1);
+    border-radius: 100%;
+    transition:all .3s ease-in-out;
+    margin-right:20px;
+}
+.slider-navigation button:hover{
+    background-color: var(--light-color-1);
+    border-radius: 100%;
+    color: var(--dark-color-2)
+}
+.slider-navigation button:hover .text-white{
+    color: var(--dark-color-2) !important
+}
+
+@media(min-width:800px){
+    .slider-navigation{
+        position: absolute;
+        top: 700px;
+        left: 1569px;
+        width:300px;
+        margin-bottom: -500px;
+
+    }
+}
+@media(max-width:800px){
+    .slider-navigation{
+        position: absolute;
+        top: 450px;
+         left: 209px;
+        width:100;
+
+    }
+}
+.action-link{
+    text-decoration: underline;
+    padding-bottom: 10px;
+}

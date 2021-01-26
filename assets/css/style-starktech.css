@@ -1,0 +1,85 @@
+.tech-section-bottom-row{
+    margin-bottom: -100px;
+}
+
+.tech-section-bottom-row h3{
+    font-size:2.5rem;
+    color:var(--danger-color-1);
+    margin-bottom:29px;
+}
+
+.tech-section-first-row{
+    margin-top:-50px;
+}
+
+span.icon-bg{
+    background-color: #f2f2f2; 
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); 
+    width:210px;
+    height:190px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-bg img{
+   width:80px;
+   height:auto;
+}
+
+.col-icon-center{  
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius:5px;
+ }
+
+ .col-icon-center:hover{  
+    box-shadow: 2px 3px 4px rgba(214, 217, 223, 0.5);
+    background-color:var(--light-color-1);
+ }
+
+ .col-icon-center h1{  
+    font-size:2rem;
+    font-weight:300; 
+    line-height: 2;
+  } 
+  
+  .col-icon-center p{  
+    font-size:1rem;
+    font-weight:300; 
+    line-height: 1.5;
+  }
+
+
+
+
+
+
+  /***** sliding text  */
+ .slick-arrow{
+     display:none !important;
+ }
+.slider {
+     padding: 10px!important; 
+}
+
+ .h3-text{
+     font-size: 1.5rem;
+     font-weight: 300;
+ }
+ 
+ .section-callout-row{
+    background:  linear-gradient(180deg, rgba(48, 39, 66, 0.911) 0%, rgba(38, 27, 58, 0.719) 100%), url('../../assets/images/starks-image001.jpeg') no-repeat;
+    background-attachment: fixed;
+  }
+
+.pz-1 h1{
+    font-weight: 500;
+     font-size:3rem;
+    color:var(--danger-color-1)
+}
+.pz-1 p{
+    font-size:1.3rem;
+    font-weight: 300;
+}
