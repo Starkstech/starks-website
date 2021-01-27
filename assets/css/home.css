@@ -180,3 +180,102 @@
       .section-contact p{
         font: normal normal normal .9rem Roboto;
       }
+
+
+
+      @media(min-width:900px){
+            .omanl-inner-bg{
+              background:  linear-gradient(180deg, rgba(48, 39, 66, 0.295) 0%, rgba(38, 27, 58, 0.158) 100%), url('../images/oman.jpg') no-repeat;
+              height: 55vh;
+              background-size: cover;
+              transition: all .4s ease-in-out;
+            }
+            .omanl-inner-bg:hover{
+              background-image:  url('../images/oman.jpg');
+              transform: scale(1.1);
+            }
+
+            .tech-inner-bg{
+              background-image: url('../images/tech-banner.png');
+              height: 55vh;
+              background-size: cover;
+              transition: all .4s ease-in-out;
+            }
+            .tech-inner-bg:hover{
+              transform: scale(1.1);
+            }
+
+            .record-inner-bg{
+              background:  linear-gradient(180deg, rgba(48, 39, 66, 0.397) 0%, rgba(38, 27, 58, 0.288) 100%), url('../images/studio.jpg') no-repeat;
+
+              height: 55vh;
+              background-size: cover;
+              transition: all .4s ease-in-out;
+            }
+
+            .record-inner-bg:hover{
+              background-image:  url('../images/studio.jpg');
+              transform: scale(1.1);
+            }
+          }
+
+
+
+
+
+
+@media(max-width:900px){
+    .omanl-inner-bg{
+      background:  linear-gradient(180deg, rgba(48, 39, 66, 0.295) 0%, rgba(38, 27, 58, 0.158) 100%), url('../images/oman.jpg') no-repeat;
+      height: 35vh;
+      background-size: cover;
+      transition: all .4s ease-in-out;
+    }
+    .omanl-inner-bg:hover{
+      background-image:  url('../images/oman.jpg');
+      transform: scale(1.1);
+    }
+
+    .tech-inner-bg{
+      background-image: url('../images/tech-banner.png');
+      height: 35vh;
+      background-size: cover;
+      transition: all .4s ease-in-out;
+    }
+    .tech-inner-bg:hover{
+      transform: scale(1.1);
+    }
+
+    .record-inner-bg{
+      background:  linear-gradient(180deg, rgba(48, 39, 66, 0.397) 0%, rgba(38, 27, 58, 0.288) 100%), url('../images/studio.jpg') no-repeat;
+
+      height: 35vh;
+      background-size: cover;
+      transition: all .4s ease-in-out;
+    }
+
+    .record-inner-bg:hover{
+      background-image:  url('../images/studio.jpg');
+      transform: scale(1.1);
+    }
+  }
+
+
+
+      .inner-style{
+        position: relative;
+        border:5px solid var(--footer-bg-1);
+        height: 100%;
+        margin-right: -100px;
+        z-index: 300;
+        margin-left: 50px;
+    }
+     .inner-style-2{
+        position: relative;
+        border:5px solid var(--footer-bg-1);
+        height: 100%;
+        margin-left: -100px;
+        margin-right: 50px;
+        z-index: 300;
+    }
+
