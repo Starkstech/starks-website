@@ -1,0 +1,109 @@
+h4{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+p{
+    font-size: 16px;
+    color: #707070;
+    line-height: 24px;
+}
+
+
+#main-banner-tech{
+    background: url('/assets/images/starks-tech/image-banner.png');
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+.main{
+    position: relative;
+    /* top: 90px; */
+}
+
+.about-us{
+    background-color: #F9F9F9;
+}
+.about-us > h2 {
+    font-size: 32px;
+}
+
+/* #our-servicy{
+    position:absolute; height:500px !important ; background-color: transparent; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;
+} */
+
+.our-services{
+    height: 600px;
+}
+
+#our-servicy{
+  position: relative;
+  display: block;
+  top: 20px;
+  left: 0;
+  z-index: 0;
+}
+
+canvas.particles-js-canvas-el{
+    height: 600px !important;
+}
+
+#uk{
+    position: relative;
+    top: -35em;
+}
+
+.flex-container{
+    display: flex;
+    /* position: relative; */
+
+}
+
+.center {
+    justify-content: center;
+  }
+
+.flex-items {
+
+    padding: 5px;
+    width: 333px;
+    height: 190px;
+    margin: 1px;
+    /* line-height: 50px; */
+    color: #323232;
+    text-align: left;
+  }
+
+  .flex-items-team {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.171),
+        rgba(0, 0, 0, 0.73)
+      ), url('/assets/images/imgg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px;
+    width: 271px;
+    height: 258px;
+    margin: 15px;
+    /* line-height: 50px; */
+    /* color: #323232;
+    text-align: left; */
+  }
+  .name-pos{
+      position: relative;
+      top: 12em;
+      color: #F9F9F9;
+  }
+
+  span.pos{
+      font-size: 12px;
+  }
+  hr{
+    width:90%;
+    margin:0 auto;
+  }
+
+  .our-team-brief{
+
+  }
