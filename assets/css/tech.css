@@ -9,7 +9,19 @@ p{
     line-height: 24px;
 }
 
+#talk{
+    border: 1px solid #242424;
+    padding: 10px 15px 10px 15px;
+    color: #323232;
+}
 
+#talk:hover{
+    background-color: #242424;
+    cursor: pointer;
+    color: #ffff;
+    text-decoration: none;
+    transition: 0.5s;
+}
 #main-banner-tech{
     background: url('../images/starks-tech/image-banner.png');
     background-size: cover;
