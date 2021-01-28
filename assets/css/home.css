@@ -279,3 +279,11 @@
         z-index: 300;
     }
 
+
+    .border-btn-home{
+        border: 1px solid var(--footer-bg-1)
+    }
+
+    .border-btn-home:hover{
+        background-color: var(--light-color-1);
+    }

@@ -1,0 +1,13 @@
+.about-bg-left{
+    position: relative;
+    margin-right:-200px;
+    z-index: 200;
+    background-color: var(--footer-bg-1);
+}
+
+.carousel-indicators {
+    text-align: right;
+    float: right;
+    right: 2% !important;
+    left: inherit;
+}

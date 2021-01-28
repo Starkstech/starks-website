@@ -2,7 +2,7 @@
     .header-image{
         height: 100vh;
         /* background-image: url('../../assets/images/stark-image002.jpeg'); */
-        background:  linear-gradient(180deg, rgba(48, 39, 66, 0.863) 0%, rgba(38, 27, 58, 0.719) 100%), url('../../assets/images/stark-image002.jpeg') no-repeat;
+        background:  linear-gradient(180deg, rgba(48, 39, 66, 0.863) 0%, rgba(38, 27, 58, 0.719) 100%), url('../../assets/images/IMG_29600.jpeg') no-repeat;
         background-size: 100%;
         display: flex;
         justify-content: center;
@@ -22,14 +22,14 @@
     }
 }
 .header-image-2{
-    height: 90vh;
+    height: 70vh;
     background:  linear-gradient(180deg, rgba(48, 39, 66, 0.863) 0%, rgba(38, 27, 58, 0.719) 100%), url('../../assets/images/strakstech002.jpg') no-repeat;
-    background-size: 100%;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
-
+    background-attachment: fixed;
 }
 
 

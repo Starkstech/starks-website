@@ -9,6 +9,7 @@
 @import url('./style-starktech.css');
 @import url('./career.css');
 @import url('./tech.css');
+@import url('./omanl.css');
 
 
 :root{
@@ -96,7 +97,7 @@ p{
  }
 
  .logo{
-   width:50px;
+   width:250px !important;
    height:auto;
  }
 
@@ -292,8 +293,8 @@ section .section-title{
     }
 
     .dropdown-toggle{
-        color:var(--dark-color-1) !important;
-        font-weight:500!important;
+        /* color:var(--dark-color-1) !important; */
+        /* font-weight:500!important; */
     }
 
     .dropdown-toggle.text-light{

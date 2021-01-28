@@ -11,7 +11,7 @@ p{
 
 
 #main-banner-tech{
-    background: url('/assets/images/starks-tech/image-banner.png');
+    background: url('../images/starks-tech/image-banner.png');
     background-size: cover;
     height: 600px;
     background-repeat: no-repeat;
@@ -22,9 +22,23 @@ p{
     /* top: 90px; */
 }
 
-.about-us{
-    background-color: #F9F9F9;
-}
+    @media(min-width:700px){
+    .about-us{
+        background-color: #F9F9F9;
+        height:40vh;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    }
+
+    @media(max-width:700px){
+    .about-us{
+        background-color: #F9F9F9;
+        height:100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        }
+    }
 .about-us > h2 {
     font-size: 32px;
 }
@@ -33,9 +47,15 @@ p{
     position:absolute; height:500px !important ; background-color: transparent; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%;
 } */
 
-.our-services{
-    height: 600px;
-}
+@media( max-width: 700px){
+    .our-services{
+         height: 1300px !important;
+    }}
+
+    @media( min-width: 700px){
+    .our-services{
+         height: 60vh;
+    }}
 
 #our-servicy{
   position: relative;
@@ -79,7 +99,7 @@ canvas.particles-js-canvas-el{
     background: linear-gradient(
         rgba(0, 0, 0, 0.171),
         rgba(0, 0, 0, 0.73)
-      ), url('/assets/images/imgg.png');
+      ), url('../images/imgg.png');
     background-position: center;
     background-repeat: no-repeat;
     padding: 15px;
@@ -90,11 +110,16 @@ canvas.particles-js-canvas-el{
     /* color: #323232;
     text-align: left; */
   }
+  .name-pos img{
+     height:280px;
+  }
   .name-pos{
       position: relative;
-      top: 12em;
-      color: #F9F9F9;
   }
+
+  .name-pos:hover{
+    transform: scale(1.1);
+}
 
   span.pos{
       font-size: 12px;
@@ -107,3 +132,25 @@ canvas.particles-js-canvas-el{
   .our-team-brief{
 
   }
+
+  .team-info{
+    position: absolute;
+    bottom:0;
+    width:100%;
+    text-align:left;
+    padding:18px;
+    background-color: rgba(0, 0, 0, 0.473);
+    color: #ffff
+ }
+
+ .team-info .positions{
+    color: #ffff;
+    font-weight:700;
+    font-size: .7rem;
+ }
+
+ .team-info p{
+    color: #ffff;
+    font-weight:400;
+    font-size: 1rem;
+ }
