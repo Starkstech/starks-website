@@ -2,7 +2,7 @@
     .header-image{
         height: 100vh;
         /* background-image: url('../../assets/images/stark-image002.jpeg'); */
-        background:  linear-gradient(180deg, rgba(48, 39, 66, 0.863) 0%, rgba(38, 27, 58, 0.719) 100%), url('../images/home1.jpg') no-repeat;
+        background:  linear-gradient(180deg, rgba(48, 39, 66, 0.863) 0%, rgba(38, 27, 58, 0.719) 100%), url('../images/entrance-starks-landing.jpg') no-repeat;
         background-size: 100%;
         display: flex;
         justify-content: center;

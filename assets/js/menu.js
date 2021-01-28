@@ -1,9 +1,11 @@
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {
     myFunction();
+    scrollFunction();
 };
 
 // Get the navbar
+var navbar = document.getElementById("main-nav");
 var navbar = document.getElementById("main-nav");
 
 // Get the offset position of the navbar
@@ -57,3 +59,22 @@ function myFunction() {
 
 }); // jquery end
 
+
+
+//Scroll to top script
+//Get the button:
+mybuttons = document.getElementById("myBtn");
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+
+        mybuttons.style.display = "block";
+    } else {
+        mybuttons.style.display = "none";
+    }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
