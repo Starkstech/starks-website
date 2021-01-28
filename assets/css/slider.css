@@ -71,7 +71,7 @@
     }
     .header-image{
         height: 70vh;
-        background:  linear-gradient(180deg, rgba(48, 39, 66, 0.863) 0%, rgba(38, 27, 58, 0.719) 100%), url('../../assets/images/stark-image002.jpeg') no-repeat;
+        background:  linear-gradient(180deg, rgba(48, 39, 66, 0.863) 0%, rgba(38, 27, 58, 0.719) 100%), url('../../assets/images/image-starkstech.jpg') no-repeat;
         background-size: cover;
         display: flex;
         justify-content: center;

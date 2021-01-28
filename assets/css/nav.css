@@ -171,7 +171,6 @@ body.offcanvas-active{
   }
 
   #navbar_main{
-    background: rgb(2,0,36);
-    background: linear-gradient(16deg, rgba(49, 38, 70, 0.151) 0%, rgba(45, 32, 69, 0.623) 46%, rgba(2, 5, 5, 0.068) 100%);
-    width:50%;
+      box-shadow: 1px 3px 6px rgb(56, 56, 56);
+    width:66%;
   }

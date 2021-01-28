@@ -196,7 +196,7 @@
             }
 
             .tech-inner-bg{
-              background-image: url('../images/tech-banner.png');
+              background-image: url('../images/image-starkstech.jpg');
               height: 55vh;
               background-size: cover;
               transition: all .4s ease-in-out;
@@ -237,7 +237,7 @@
     }
 
     .tech-inner-bg{
-      background-image: url('../images/tech-banner.png');
+      background-image: url('../images/image-starkstech.jpg');
       height: 35vh;
       background-size: cover;
       transition: all .4s ease-in-out;
