@@ -1,7 +1,7 @@
 const images = [
-  {"item":"assets/images/starks-records.jpg"},
-  {"item":"assets/images/stark-image002.jpeg"},
-  {"item":"assets/images/strakstech002.jpg"}
+  {"item":"assets/images/home1.jpg"},
+  {"item":"assets/images/home1.jpg"},
+  {"item":"assets/images/home1.jpg"}
  ]
 
     var i = 0;
