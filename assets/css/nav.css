@@ -48,6 +48,18 @@
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
 }
 
+.nav-bg-scroll .logo-light{
+    display: none
+}
+
+.logo-dark{
+    display:none
+}
+
+.nav-bg-scroll .logo-dark{
+    display: block
+}
+
 .nav-bg-scroll #navbarNav .nav-item a.nav-link{
     color: var(--dark-color-2);
     font-weight:500;
