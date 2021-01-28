@@ -41,3 +41,15 @@
             height:10px!important;
             border-radius: 100px!important;
         }
+
+        @media(min-width:1000px){
+            .carousel-item img {
+                height:500px !important;
+            }
+        }
+
+        @media(max-width:1000px){
+            .carousel-item img {
+                height:250px !important;
+            }
+        }

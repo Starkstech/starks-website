@@ -23,7 +23,7 @@
 }
 .header-image-2{
     height: 70vh;
-    background:  linear-gradient(180deg, rgba(48, 39, 66, 0.863) 0%, rgba(38, 27, 58, 0.719) 100%), url('../../assets/images/strakstech002.jpg') no-repeat;
+    background:  linear-gradient(180deg, rgba(48, 39, 66, 0.863) 0%, rgba(38, 27, 58, 0.719) 100%), url('../../assets/images/stark-techie-banner.png') no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
