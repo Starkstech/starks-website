@@ -1,7 +1,9 @@
 .header-img-career{
-    background-image: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url('../images/stark-image002.jpeg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url('../images/starks-records-3.JPG');
+    background-repeat: no-repeat;
     background-attachment: fixed;
     height:63vh;
     display:flex;
     justify-content: center;
+    background-size: cover;
 }
