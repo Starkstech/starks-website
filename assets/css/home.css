@@ -185,7 +185,7 @@
 
       @media(min-width:900px){
             .omanl-inner-bg{
-              background:  linear-gradient(180deg, rgba(48, 39, 66, 0.295) 0%, rgba(38, 27, 58, 0.158) 100%), url('../images/oman.jpg') no-repeat;
+              background:  linear-gradient(180deg, rgba(48, 39, 66, 0.295) 0%, rgba(38, 27, 58, 0.158) 100%), url('../images/office.jpg') no-repeat;
               height: 55vh;
               background-size: cover;
               transition: all .4s ease-in-out;
@@ -196,7 +196,7 @@
             }
 
             .tech-inner-bg{
-              background-image: url('../images/tech-banner.png');
+              background-image: url('../images/image-starkstech\ 2.jpg');
               height: 55vh;
               background-size: cover;
               transition: all .4s ease-in-out;
