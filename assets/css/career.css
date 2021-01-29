@@ -2,7 +2,7 @@
     background-image: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url('../images/career.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height:63vh;
+    height:65vh;
     display:flex;
     justify-content: center;
     background-size: cover;
@@ -16,4 +16,16 @@
     display:flex;
     justify-content: center;
     background-size: cover;
+}
+@media(max-width:700px){
+
+    .header-img-career{
+        height:44vh;
+    }
+    .heaser-inner h1{
+        font-size:1.5rem
+        }
+    .heaser-inner p{
+        font-size:.8rem
+     }
 }
