@@ -23,14 +23,14 @@
     text-decoration: none;
 }
 
-.starks-nav #navbarNav .nav-item a.nav-link-a::after {
+/* .starks-nav #navbarNav .nav-item a.nav-link-a::after {
     content: '';
     display: block;
     width: 0;
     height: 2px;
     background: var(--secondary-color);
     transition: width .4s;
-}
+} */
 
  #navbarNav .nav-item a.nav-link-a.about {
     color: black;
@@ -38,9 +38,9 @@
     font-size:.98rem;
 }
 
-.starks-nav #navbarNav .nav-item a.nav-link-a:hover::after {
+/* .starks-nav #navbarNav .nav-item a.nav-link-a:hover::after {
     width: 100%;
-}
+} */
 
 .nav-bg-scroll{
     background-color: var(--light-color-1);

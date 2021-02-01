@@ -79,3 +79,8 @@ h5.footer-menu-title{
     }
 }
 
+@media(max-width:700px){
+    .footer-menu-wrapper{
+        text-align: center;
+      }
+}

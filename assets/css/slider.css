@@ -113,6 +113,7 @@
     border-radius: 100%;
     transition:all .3s ease-in-out;
     margin-right:20px;
+    height:42px;
 }
 .slider-navigation button:hover{
     background-color: var(--light-color-1);
